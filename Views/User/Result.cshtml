@@ -1,0 +1,12 @@
+@model MvcBindingApp.Models.User
+
+<h2 style="color: green;">Data Submitted Successfully!</h2>
+
+<div style="border: 2px solid green; padding: 20px; width: 300px;">
+    <p><strong>First Name:</strong> @Model.FirstName</p>
+    <p><strong>Last Name:</strong> @Model.LastName</p>
+    <p><strong>Age:</strong> @Model.Age</p>
+</div>
+
+<br/>
+<a href="/User/Create">⬅ Go Back</a>
